@@ -1,5 +1,5 @@
 spring:
-   jpa:
+  jpa:
     show-sql: true
   datasource:
     url: jdbc:mysql://192.168.138.130:3306/cloud_sell?characterEncoding=UTF-8&useSSL=false
