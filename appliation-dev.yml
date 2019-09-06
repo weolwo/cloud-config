@@ -1,0 +1,19 @@
+server:
+  port: 9081
+eureka:
+  instance:
+    instance-id: config #自定义服务名称
+    prefer-ip-address: true #访问路径可以显示IP地址
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka/
+spring:
+  application:
+    name: cloud-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/weolwo/cloud-config.git
+          username: luowiy@qq.com
+          password: Luowy^5307
