@@ -17,3 +17,5 @@ spring:
           uri: https://github.com/weolwo/cloud-config.git
           username: luowiy@qq.com
           password: Luowy^5307
+  profiles:
+    active: dev
