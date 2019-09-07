@@ -3,6 +3,11 @@ env:
 spring:
   application:
     name: order
+  rabbitmq:
+    host: 192.168.138.128
+    port: 5672
+    username: poplar
+    password: poplar
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
