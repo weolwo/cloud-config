@@ -12,7 +12,7 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:7001/eureka/
- maohua:
-  name: weijiajing
-  age: 20
+maohua:
+name: weijiajing
+age: 20
   
