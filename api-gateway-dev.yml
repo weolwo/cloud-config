@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    config:
+      enabled: true
+      discovery:
+        service-id: CONFIG
+      profile: dev
+      uri: http://localhost:9082
+      label: master
+    discovery:
+      enabled: true
+eureka:
+  instance:
+    instance-id: api-gateway
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka/
+
+zuul:
+  #排除某些路由
+  ignored-services:
+    #list的配置方法
+    - /**/product/productList
