@@ -13,6 +13,9 @@ spring:
     username: root
     password: 123456
     url: jdbc:mysql://192.168.138.130:3306/cloud_sell?characterEncoding=UTF-8&useSSL=false
+  redis:
+  host: 192.168.138.128
+  port: 6379
 eureka:
   instance:
     instance-id: order
