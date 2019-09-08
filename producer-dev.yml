@@ -2,7 +2,7 @@ env:
   dev
 spring:
   application:
-    name: order
+    name: producer
   rabbitmq:
     host: 192.168.138.128
     port: 5672
