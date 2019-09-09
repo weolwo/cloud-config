@@ -18,7 +18,9 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:7001/eureka/
-
+redis:
+  host: 192.168.138.128
+  port: 6379
 zuul:
   #排除某些路由
   ignored-services:
