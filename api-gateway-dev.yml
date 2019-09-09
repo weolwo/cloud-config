@@ -11,9 +11,9 @@ spring:
       label: master
     discovery:
       enabled: true
- redis:
-  host: 192.168.138.128
-  port: 6379
+   redis:
+    host: 192.168.138.128
+    port: 6379
 eureka:
   instance:
     instance-id: api-gateway
