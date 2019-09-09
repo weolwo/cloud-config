@@ -1,5 +1,4 @@
-env:
-  dev
+
 spring:
   application:
     name: order
@@ -16,14 +15,4 @@ spring:
   redis:
     host: 192.168.138.128
     port: 6379
-eureka:
-  instance:
-    instance-id: order
-    prefer-ip-address: true
-  client:
-    service-url:
-      defaultZone: http://localhost:7001/eureka/
-maohua:
-  name: weijiajing
-  age: 20
   
