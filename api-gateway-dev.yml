@@ -24,3 +24,5 @@ zuul:
   ignored-services:
     #list的配置方法
     - /**/product/productList
+#忽略所有的敏感头,
+  sensitive-headers: 
